@@ -1,0 +1,16 @@
+Vue is an Javascript Framework
+
+Its an Fontend Library
+
+
+
+install
+
+
+add this to an html file:
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+
+
+to use a var in vue we have to use {{ var }}
