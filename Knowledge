@@ -57,6 +57,10 @@ v-else        takes NO argument!
             
 _________________________________________________________
 
+@click                   short equivalent version
+@mouseover="argument"
+....
+
 v-on:type of event="argument"
 
 v-on:click="isVisible = true"
