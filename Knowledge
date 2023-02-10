@@ -14,3 +14,23 @@ add this to an html file:
 
 
 to use a var in vue we have to use {{ var }}
+
+
+keywords:
+
+v-model="var"
+
+
+v-if="argument"  (if true it will show up, is false this will not show up, also not in the console)
+v-show=""        (this will show the object still in the DOM console (if the argument is false))
+v-else-if=""
+v-else        takes NO argument!
+
+
+
+<div v-if="isVisible" class="box"></div>
+<div v-else-if="isVisible" class="box"></div>
+<div v-else class="box"></div>
+
+
+
