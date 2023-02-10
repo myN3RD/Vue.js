@@ -69,3 +69,34 @@ how to it inVisible now again?          ->        v-on:click="isVisible = !isVis
 
 
 
+
+.prevent 
+
+stop the form for example to make theirs default action -> which is in this case to refresh the page after submitting
+
+<form @submit.prevent="handleSubmit">
+
+
+
+
+                    COMPONENTS
+            
+_________________________________________________________
+
+
+is like breaking up an application in several components
+
+Outer Components
+Inner Components
+
+
+we have to define a 
+
+template  for each component!
+
+
+
+
+
+
+
