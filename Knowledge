@@ -52,3 +52,16 @@ v-else        takes NO argument!
 
 
 
+
+                    EVENT & METHODS
+            
+_________________________________________________________
+
+v-on:type of event="argument"
+
+v-on:click="isVisible = true"
+
+how to it inVisible now again?          ->        v-on:click="isVisible = !isVisible"               (Toggle Event - changes from true to false)
+
+
+
