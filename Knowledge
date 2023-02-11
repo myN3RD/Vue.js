@@ -84,7 +84,7 @@ how to it inVisible now again?          ->        v-on:click="isVisible = !isVis
 
 .prevent 
 
-stop the form for example to make theirs default action -> which is in this case to refresh the page after submitting
+stop the form for example from their default behavior -> which is in this case to refresh the page after submitting
 
 <form @submit.prevent="handleSubmit">
 
@@ -105,6 +105,32 @@ Inner Components
 we have to define a 
 
 template  for each component!
+
+
+          LOGIN COMPONENT
+
+                      app.component('login-form', {
+                          template: `
+                          <form @submit.prevent="handleSubmit">     
+                              <h1>{{ title }}</h1>
+                              <input type="email" v-model="email" />
+                              <input type="password" v-model="password" />
+                              <button>Log in</button>
+                          </form>
+                          `,
+                          data() {
+                              return {
+                                  title: 'Login Form',
+                                  email: '',
+                                  password: ''
+                              }
+                          },
+                          methods: {
+                              handleSubmit() {
+                                  console.log(this.email, this.password)
+                              }
+                          }
+                      })
 
 
 
