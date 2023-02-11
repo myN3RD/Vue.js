@@ -25,6 +25,22 @@ add this to an html file:
 
 
 
+
+
+
+    data() {                  -> data needs to return an object
+        return {
+            
+        }
+    }
+})  
+
+
+
+
+
+
+
 to use a var in vue we have to use {{ var }}
 
 
