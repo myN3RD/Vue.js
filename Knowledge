@@ -182,6 +182,13 @@ ab 22min -> follow allong -> https://www.youtube.com/watch?v=qZXt1Aom3Cs&t=1297s
 
 
 
+vscode terminal:
+
+npm run serve
+-> by default -> localhost:8080
+
+
+
 
 
 
