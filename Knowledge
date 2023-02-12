@@ -172,11 +172,13 @@ _________________________________________________________
 _________________________________________________________
 
 in terminal:
-npm install -g @vue/cli
+sudo npm install -g @vue/cli
 
 in terminal:
 vue create filename
 vue create vue-crashcourse
+
+ab 22min -> follow allong -> https://www.youtube.com/watch?v=qZXt1Aom3Cs&t=1297s&ab_channel=TraversyMedia
 
 
 
