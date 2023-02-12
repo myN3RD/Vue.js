@@ -155,6 +155,28 @@ template  for each component!
                               }
                           }
                       })
+                      
+                      
+
+
+
+                    DIRECTIVES
+            
+_________________________________________________________
+
+
+
+                    VUE CLI
+                    
+    https://cli.vuejs.org/guide/installation.html
+_________________________________________________________
+
+in terminal:
+npm install -g @vue/cli
+
+in terminal:
+vue create filename
+vue create vue-crashcourse
 
 
 
