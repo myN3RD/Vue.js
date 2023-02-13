@@ -203,6 +203,22 @@ npm run serve
 
 
 
+when using  $emit.....
+
+when err in console
+[Vue: warn] emits event listeners (deleteTask) were passed to component but could not be automatically inherited 
+
+Solution
+
+we have to add emit to the app as a method
+
+
+
+
+
+
+
+
 
 
 
