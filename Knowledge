@@ -254,6 +254,21 @@ _________________________________________________________
 
 
 
+                    JSON (full fake REST API) SERVER
+            
+_________________________________________________________
+
+
+npm i json-server
+
+START JSON SERVER:
+
+json-server --watch db.json
+
+
+
+
+
 
 
 
