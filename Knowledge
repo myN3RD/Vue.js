@@ -64,6 +64,12 @@ stop the running app first
 
 run npm run build -> will create a folder "dist" -> this is what we deploy
 
+for testing run sudo npm i -g serve -> this will serve the dist folder
+
+run serve -s dist
+
+
+
 
 
 
