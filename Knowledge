@@ -55,7 +55,7 @@ add this to an html file:
 
 
 
-                    PRODUCTION ENVIRONMENT SETTINGS
+                    PRODUCTION ENVIRONMENT SETTINGS (for deploying on a production server (localhost))
             
 _________________________________________________________
 
