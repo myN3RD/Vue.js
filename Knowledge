@@ -55,6 +55,17 @@ add this to an html file:
 
 
 
+                    PRODUCTION ENVIRONMENT SETTINGS
+            
+_________________________________________________________
+
+
+stop the running app first
+
+run npm run build -> will create a folder "dist" -> this is what we deploy
+
+
+
 
 
 to use a var in vue we have to use {{ var }}
@@ -233,6 +244,9 @@ we have to add emit to the app as a method
                     ROUTER (core view layer)
             
 _________________________________________________________
+
+
+
 
 
 
