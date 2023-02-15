@@ -266,6 +266,11 @@ START JSON SERVER:
 json-server --watch db.json
 
 
+if we want to put it into a script: -> json-server --watch db.json --port XXXX
+
+-> create a file -> db.json -> put in the json data
+
+
 
 
 
