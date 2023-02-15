@@ -270,6 +270,16 @@ if we want to put it into a script: -> json-server --watch db.json --port XXXX
 
 -> create a file -> db.json (in. root) -> put in the json data
 
+NOW we can run  -> npm start  start filename
+
+
+now we can check if the "backend" is running
+
+Resources
+  http://localhost:3000/tasks
+  
+DONT CLOSE THE RUNNING APP NOW! -> OPEN A NEW TAB IN CONSOLE -> npm run serve (Vue dev server)
+
 
 
 
