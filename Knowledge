@@ -71,6 +71,37 @@ for testing run sudo npm i -g serve -> this will serve the dist folder
                    ___________
               
                   serve -s dist
+                  
+                  
+                  
+                  
+                  
+                      dev SERVER ENVIRONMENT SETTINGS (for deploying to a dev Server)
+            
+_________________________________________________________  
+
+
+create a file in the root -> vue.config.js
+
+copy paste:
+                  
+                  // only for running in the dev Server NOT in production
+                      module.exports = {
+                        devServer: {
+                          proxy: {
+                            '^/api': {
+                              target: 'http://localhost:3000',
+                              changeOrigin: true,
+                              logLevel: 'debug',
+                              pathRewrite: {
+                                '^/api': '/'
+                              },
+                            }
+                          }
+                        }
+                      }
+
+
 
 
 
