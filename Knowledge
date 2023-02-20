@@ -80,6 +80,10 @@ for testing run sudo npm i -g serve -> this will serve the dist folder
             
 _________________________________________________________  
 
+START:
+npm run serve
+
+
 
 create a file in the root -> vue.config.js
 
